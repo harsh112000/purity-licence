@@ -1,0 +1,80 @@
+/* header.css */
+
+header {
+    background-color: #1a1a1a;
+    padding: 1rem 2rem;
+    color: #fff;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #4CAF50; /* Green color for "Shudh Monitoring Authority" */
+}
+
+.sma-badge {
+    background-color: #f4a261;
+    color: #4CAF50;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    font-size: 1rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav ul li:hover {
+    color: #ffa500; /* Orange hover color */
+}
+
+button {
+    background-color: #ff6600; /* Orange background for "Sign In" button */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 30px;
+    margin-top: -5px;
+}
+
+button:hover {
+    background-color: #e55b00;
+}
+
+
+.nav-link, .button-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.button-link {
+    color: #fff;
+}
+
+.button-link:hover {
+    color: #fff;
+}

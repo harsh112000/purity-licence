@@ -1,0 +1,39 @@
+.certified-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f97316; /* Orange background color */
+    padding: 50px;
+    color: #fff;
+  }
+  
+  .certified-content {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .certified-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .certified-content p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  .certified-image {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .certified-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  

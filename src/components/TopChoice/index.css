@@ -1,0 +1,48 @@
+.top-choice-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .top-choice-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .choice-card {
+    width: 120px;
+    background-color: #f8e8df;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .choice-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .choice-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .choice-card h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+  }
+  
+  .choice-card p {
+    font-size: 12px;
+    color: #888;
+  }
+  

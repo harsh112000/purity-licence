@@ -1,0 +1,38 @@
+.services-section {
+  padding: 20px;
+}
+
+.services-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+  padding-left: 40px;
+}
+
+.content {
+  padding-left: 40px;
+}
+
+.services-section h2::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #f97b22;
+  margin: 5px auto 0;
+}
+
+.service-images {
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
+.service-images img {
+  width: 50%;
+  height: auto;
+  max-height: 300px; /* Set a consistent max-height to ensure equal height */
+  object-fit: cover; /* Ensures images fit within their container */
+  border-radius: 10px;
+}

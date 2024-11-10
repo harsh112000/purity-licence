@@ -1,0 +1,118 @@
+/* Footer styling */
+.footer {
+    background-color: #f9f9f9;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .footer-logo {
+    max-width: 300px;
+  }
+  
+  .logo-icon {
+    background-color: #62b678;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .logo-text h3 {
+    color: #ff934f;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .logo-text p {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .social-icons i {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0 5px;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  }
+  
+  .footer-column h4 {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    font-size: 0.9em;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .newsletter {
+    max-width: 250px;
+  }
+  
+  .newsletter h4 {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .newsletter-form input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+  }
+  
+  .newsletter-form button {
+    background-color: #333;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .payment-icons img {
+    width: 40px;
+    margin: 0 5px;
+  }
+  
