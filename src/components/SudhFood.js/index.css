@@ -12,6 +12,18 @@
   
   .header h2 {
     font-size: 24px;
+    width: 1201px;
+height: 34px;
+gap: 0px;
+    opacity: 0px;
+    font-family: Nunito Sans;
+font-size: 28px;
+font-weight: 600;
+line-height: 33.6px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
   }
   
   .view-all {
