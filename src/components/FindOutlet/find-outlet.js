@@ -10,7 +10,9 @@ const FindOutlet = () => (
       <img src={profile} alt="profile" />
       <div className="profile-info">
         <span className="profile-name">Iswarya Raju</span>
-        <span className="profile-role">Safety Officer</span>
+        <div>
+          <span className="profile-role">Safety Officer</span>
+        </div>
       </div>
     </div>
     <div className="decorations">

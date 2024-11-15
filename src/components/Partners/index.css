@@ -1,0 +1,307 @@
+.partners-hero {
+    background-image: url('../../assets/partner-1.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.partners-hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.faq-button {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.partners-content {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.partners-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.partners-intro h2 {
+    font-size: 1.5em;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+.partners-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.partners-logos img {
+    max-width: 150px;
+    margin: 10px;
+}
+
+.main-activities {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.main-activities h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.main-activities-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.main-activities ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.main-activities ul li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.main-activities-image {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.faq-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.faq-section h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.faq-content {
+    flex: 1;
+    margin-left: 90px;
+}
+
+.faq-content-text {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h4 {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.5;
+    padding-left: 15px;
+    position: relative;
+}
+
+.faq-item p span {
+    display: block; /* Each sentence on a new line */
+}
+
+.faq-item p span::before {
+    content: "•"; /* Bullet symbol */
+    position: absolute;
+    left: 0;
+    color: #333; /* Bullet color */
+    font-weight: bold;
+    line-height: 1.5; /* Adjust line height */
+}
+
+.faq-image {
+    flex-basis: 30%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.info-section {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.info-section h4 {
+    font-size: 1.5em;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
+.info-section p {
+    font-size: 1em;
+    color: white;
+}
+
+
+.find-outlet-section {
+    background-color: #1c1c1c; /* Dark background color */
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    font-style: italic;
+    color: #d1d1d1;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .profile-info {
+    text-align: left;
+  }
+  
+  .profile-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .profile-role {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  /* Decorative elements */
+  .decorations {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .decoration-left {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 100px;
+    background: linear-gradient(to bottom, #fff 0%, transparent 100%);
+    border-radius: 1px;
+  }
+  
+  .decoration-top-right {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ff7f50;
+  }
+  
+  .decoration-bottom-right {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffd700;
+  }
+  
+  .decorations::before {
+    content: "";
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    border: 1px dashed #666;
+    transform: rotate(45deg);
+    opacity: 0.5;
+  }
+  
+  .dot-list {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+}
+
+.dot-list li {
+    margin-bottom: 10px;
+}
+
+.dot-list li span {
+    display: block; /* Make each sentence appear on a new line */
+    padding-left: 15px; /* Space for custom bullets */
+    position: relative;
+}
+
+.dot-list li span::before {
+    content: "•"; /* Custom bullet character */
+    position: absolute;
+    left: 0;
+    color: #333; /* Bullet color */
+}

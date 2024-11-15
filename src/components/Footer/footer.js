@@ -1,12 +1,15 @@
 import React from 'react';
 import './index.css';
 import logo from '../../assets/logo.png';
+import payment from '../../assets/payment.png';
 const Footer = () => (
   <footer className="footer">
     <div className="footer-section">
       <div className="footer-logo">
         <div className="logo-text">
-        <img src={logo} alt="logo" />
+          <div className="logo-image">
+            <img src={logo} alt="logo" />
+          </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Metus dictumst faucibus ac eget nisl augue.</p>
         </div>
         <div className="social-icons">
@@ -53,18 +56,13 @@ const Footer = () => (
             <i className="fas fa-envelope"></i>
           </button>
         </form>
-        <p>Will send you weekly updates for your better finance management.</p>
+        <p style={{paddingTop: '10px'}}>Will send you weekly updates for your better finance management.</p>
       </div>
     </div>
     <div className="footer-bottom">
       <p>© SMA 2024. All Rights Reserved.</p>
-      <div className="payment-icons">
-        <img src="path/to/mastercard-icon.png" alt="Mastercard" />
-        <img src="path/to/bitcoin-icon.png" alt="Bitcoin" />
-        <img src="path/to/visa-icon.png" alt="Visa" />
-        <img src="path/to/discover-icon.png" alt="Discover" />
-        <img src="path/to/apple-pay-icon.png" alt="Apple Pay" />
-        <img src="path/to/google-pay-icon.png" alt="Google Pay" />
+      <div>
+        <img  className = "payment-image" src={payment} alt="Mastercard" />
       </div>
     </div>
   </footer>

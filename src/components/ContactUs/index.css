@@ -1,0 +1,152 @@
+.contact-container {
+  max-width: 100%;
+  /* padding: 0 15px; */
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.contact-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30vh;
+  margin-left: 5vw;
+}
+
+.help-button {
+  background: hsl(13, 20%, 91%);
+  color: black;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+
+.contact-header h1 {
+  font-size: 74.99px;
+  font-family: 'Nunito Sans';
+  margin-right: auto;
+  gap: 0;
+}
+
+.dishes-image {
+  float: right;
+  max-width: 700px;
+}
+
+.contact-form {
+  margin-left: 10vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  padding: 18px;
+  border-radius: 10px;
+  width: 40vw;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  grid-column: span 2;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.send-button {
+  grid-column: span 2;
+  background: #ff7a59;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dessert-image {
+  width: 40vw;
+  height: 620px;
+}
+
+.contact-info {
+  margin-left: 10vw;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 16px;
+  width: 735px;
+  height: 514px;
+  border-radius: 8px 0px 0px 0px;
+}
+
+.office-info {
+  border: 1px solid #ccc;
+  padding: 18px;
+  border-radius: 10px;
+  gap: 10px;
+  width: 40vw;
+}
+
+.office-info p {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.bowl-image {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  height: 600px;
+  width: 440px;
+  margin-right: -78px;
+}
+
+.map-image {
+  height: 278px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  width: 40vw;
+  margin-left: -1px;
+}
+
+.contact-form-wrapper {
+  display: flex;
+  justify-content:space-between
+}
+
+.contact-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.map-image-wrapper {
+  width: 100%;
+}
+
+.contact-form div {
+  margin-bottom: 16px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 14px;
+}

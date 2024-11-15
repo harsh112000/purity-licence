@@ -5,11 +5,13 @@ import image from "../../assets/image.png"
 const Banner = () => (
   <section className="hero-section">
     <div className="hero-text">
-      <h2>But, is it Pure?</h2>
-      <p>Don't worry, Shudh helps in monitoring that. Do check out SMA</p>
+    <h2>But, is it Pure? </h2>
+    <h2>Don’t worry, Shudh</h2>
+    <h2> helps in monitoring </h2>
+    <h2>that.Do check out SMA</h2>
       <div className="hero-buttons">
-        <button>Get Certified</button>
-        <button>SMA Outlets</button>
+        <button className="button-solid">Get Certified</button>
+        <button class="button-outline">SMA Outlets</button>
       </div>
     </div>
     <div className="hero-image">

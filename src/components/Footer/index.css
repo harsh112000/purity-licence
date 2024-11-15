@@ -27,6 +27,9 @@
     font-size: 20px;
     margin-right: 10px;
   }
+  .logo-text {
+    margin-top: -26px;
+  }
   
   .logo-text h3 {
     color: #ff934f;
@@ -71,6 +74,7 @@
   
   .newsletter {
     max-width: 250px;
+    margin-left: 100px;
   }
   
   .newsletter h4 {
@@ -116,3 +120,11 @@
     margin: 0 5px;
   }
   
+
+  .logo-image {
+    margin-left: -38px;
+  }
+
+  .payment-image {
+    width: 320px;
+}

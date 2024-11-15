@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/header';
 import Banner from './components/Banner/banner';
 import Services from './components/Servicess/service';
@@ -6,24 +7,41 @@ import About from './components/About/about';
 import Certification from './components/Certification/certification';
 import Certified from './components/Certified/certified';
 import TopChoice from './components/TopChoice/top-choice';
+import SudhFood from './components/SudhFood.js/sudh-food';
 import FoodGallery from './components/FoodGallery/food-gallery';
 import FindOutlet from './components/FindOutlet/find-outlet';
 import Footer from './components/Footer/footer';
-import SudhFood from './components/SudhFood.js/sudh-food';
+import AboutUs from './components/About-Us/about-us'; 
+import Process from './components/Process/process';
+import Partners from './components/Partners/partner';
+import ContactUs from './components/ContactUs/contact';
+
+const HomePage = () => (
+    <div>
+        <Header />
+        <Banner />
+        <Services />
+        <About />
+        <Certification />
+        <Certified />
+        <TopChoice />
+        <SudhFood />
+        <FoodGallery />
+        <FindOutlet />
+        <Footer />
+    </div>
+);
+
 const App = () => (
-  <div>
-    <Header />
-    <Banner />
-    <Services />
-    <About />
-    <Certification />
-    <Certified />
-    <TopChoice />
-    <SudhFood />
-    <FoodGallery />
-    <FindOutlet />
-    <Footer />
-  </div>
+    <Router>
+        <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/process" element={<Process />} />
+            <Route path="/partners" element={<Partners />} />
+            <Route path="/contact-us" element={<ContactUs />} />
+        </Routes>
+    </Router>
 );
 
 export default App;

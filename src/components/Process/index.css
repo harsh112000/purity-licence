@@ -1,0 +1,139 @@
+.process-about {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.process-intro {
+    background-image: url('../../assets/processIntro.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    margin-bottom: 40px;
+}
+
+.process-world-consumers {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.process-world-consumers h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.process-world-consumers img {
+    width: 95%;
+    margin-top: 20px;
+}
+
+.process-outlet-section {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.process-outlet-section h2 {
+    font-size: 2em;
+    color: #16a085;
+    margin-bottom: 10px;
+}
+
+.process-history-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.process-history-title {
+    font-size: 1.1em;
+    color: #e67e22;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.process-history-description {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.process-history-content {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.process-item-centered {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.process-history-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 480px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.process-images{
+    width: 80%;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    
+}
+
+.process-image{
+    width: 20%;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    
+}
+
+.process-image-alt {
+    width: 90%;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.process-subtitle {
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.process-paragraph {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.process-paragraph-extra {
+    margin-top: 0;
+}

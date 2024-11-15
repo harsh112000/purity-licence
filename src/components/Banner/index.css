@@ -1,9 +1,9 @@
-/* banner.css */
 .hero-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 4rem 2rem;
+    font-family: Nunito Sans;     ;
     background-color: #1a1a1a;
     color: #fff;
   }
@@ -29,7 +29,7 @@
     gap: 1rem;
   }
   
-  .hero-buttons button {
+  /* .hero-buttons button {
     background-color: #ff6600;
     color: #fff;
     border: none;
@@ -38,16 +38,60 @@
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
+  } */
   
-  .hero-buttons button:hover {
-    background-color: #e55b00;
-  }
   
-  .hero-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  }
+.hero-image img {
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
   
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.button-solid {
+  background-color: #FF6F3D;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  height: 40px;
+  margin: 5%;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-solid:hover {
+  background-color: #080707;
+}
+
+.button-outline {
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  height: 40px;
+  margin: 5%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-outline:hover {
+  background-color: #ffffff10; 
+}
+
+.button-solid::after,
+.button-outline::after {
+  content: ' ➔'; 
+}
