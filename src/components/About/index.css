@@ -6,6 +6,8 @@
   
   .about-section {
     padding: 20px;
+    margin-left:45px;
+    margin-right: 41px;
   }
   
   .about-section h2 {
@@ -58,5 +60,6 @@
     max-width: 300px;
     height: auto;
     border-radius: 10px;
+    margin-right: 10px;
   }
   
