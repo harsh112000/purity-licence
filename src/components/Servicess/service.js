@@ -1,7 +1,8 @@
 import React from 'react';
-import image from "../../assets/Container.png"
-import image2 from "../../assets/Margin (1).png"
+import image from "../../assets/Container3.png"
+import image2 from "../../assets/Margin2.png"
 import "./index.css"
+
 const Services = () => (
   <section className="services-section">
     <h2>Our Services</h2>

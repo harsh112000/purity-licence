@@ -1,48 +1,128 @@
 .top-choice-section {
-    padding: 20px;
-    text-align: center;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fff8f0; 
+  border-radius: 15px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.top-choice-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #d27842; 
+  margin-bottom: 30px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.choices {
+  display: flex; 
+  gap: 20px; 
+  overflow-x: auto; 
+  padding-bottom: 10px;
+  scrollbar-width: none; 
+}
+
+.choices::-webkit-scrollbar {
+  display: none; 
+}
+
+.choice-card {
+  flex: 0 0 auto; 
+  background-color: #fbece3;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.choice-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.choice-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+  border: 3px solid #ffc8a2; 
+}
+
+.choice-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d27842;
+  margin: 10px 0 5px;
+}
+
+.choice-card p {
+  font-size: 14px;
+  color: #8f8f8f;
+}
+
+
+.carousel-button {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #d27842;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.carousel-button:hover {
+  background-color: #e88b5a; 
+  transform: scale(1.1);
+}
+.carousel-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.carousel-button.prev {
+  margin-right: 10px;
+}
+
+.carousel-button.next {
+  margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+  .top-choice-section {
+    padding: 30px 15px;
   }
-  
-  .top-choice-section h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  
-  .choices {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
+
   .choice-card {
+    flex: 0 0 auto;
     width: 120px;
-    background-color: #f8e8df;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
   }
-  
-  .choice-card:hover {
-    transform: scale(1.05);
-  }
-  
+
   .choice-image {
     width: 80px;
     height: 80px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 0 auto;
   }
-  
+
   .choice-card h3 {
     font-size: 16px;
-    margin: 10px 0 5px;
   }
-  
+
   .choice-card p {
     font-size: 12px;
-    color: #888;
   }
-  
+}

@@ -36,6 +36,9 @@
 .partners-intro {
     text-align: center;
     margin-bottom: 40px;
+    font-family: 'Nunito-Sans';
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .partners-intro h2 {
@@ -111,12 +114,14 @@
 .faq-content {
     flex: 1;
     margin-left: 90px;
+    font-family: 'Nunito-Sans';
 }
 
 .faq-content-text {
     font-size: 1.2em;
     color: #555;
     margin-bottom: 20px;
+    font-family: 'Nunito-Sans';
 }
 
 .faq-item {
@@ -138,16 +143,16 @@
 }
 
 .faq-item p span {
-    display: block; /* Each sentence on a new line */
+    display: block; 
 }
 
 .faq-item p span::before {
-    content: "•"; /* Bullet symbol */
+    content: "•"; 
     position: absolute;
     left: 0;
-    color: #333; /* Bullet color */
+    color: #333; 
     font-weight: bold;
-    line-height: 1.5; /* Adjust line height */
+    line-height: 1.5; 
 }
 
 .faq-image {
@@ -180,12 +185,12 @@
 
 
 .find-outlet-section {
-    background-color: #1c1c1c; /* Dark background color */
+    background-color: #1c1c1c;
     color: #fff;
     text-align: center;
     padding: 50px 20px;
     position: relative;
-    font-family: Arial, sans-serif;
+    font-family: 'Nunito-Sans';
   }
   
   .title {
@@ -231,7 +236,7 @@
     color: #888;
   }
   
-  /* Decorative elements */
+
   .decorations {
     position: absolute;
     width: 100%;
@@ -285,7 +290,7 @@
   }
   
   .dot-list {
-    list-style-type: none; /* Remove default list bullets */
+    list-style-type: none; 
     padding: 0;
 }
 
@@ -294,14 +299,16 @@
 }
 
 .dot-list li span {
-    display: block; /* Make each sentence appear on a new line */
-    padding-left: 15px; /* Space for custom bullets */
+    display: block; 
+    padding-left: 15px;
     position: relative;
+    font-family: 'Nunito-Sans';
 }
 
 .dot-list li span::before {
-    content: "•"; /* Custom bullet character */
+    content: "•"; 
     position: absolute;
     left: 0;
-    color: #333; /* Bullet color */
+    color: #333;
+    font-family: 'Nunito-Sans';
 }

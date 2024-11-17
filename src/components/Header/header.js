@@ -3,14 +3,13 @@ import "./index.css"
 import logo from "../../assets/logo.png"
 import { Link } from 'react-router-dom';
 
-
 const Header = () => (
   <header>
     <div className="nav-container">
       <img src={logo} alt="logo" />
       <nav>
-        <ul>
-          <Link to="/">Home</Link>
+        <ul className = "ul">
+          <Link to="/" >Home</Link>
           <Link to="/about">About Us</Link>
           <Link to="/process">Process</Link>
           <Link to="/partners">Partners</Link>

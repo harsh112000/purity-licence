@@ -1,5 +1,5 @@
 .find-outlet-section {
-    background-color: #1c1c1c; /* Dark background color */
+    background-color: #1c1c1c; 
     color: #fff;
     text-align: center;
     padding: 50px 20px;
@@ -50,7 +50,6 @@
     color: #888;
   }
   
-  /* Decorative elements */
   .decorations {
     position: absolute;
     width: 100%;

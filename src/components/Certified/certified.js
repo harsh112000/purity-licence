@@ -4,6 +4,7 @@ import image from '../../assets/certified.png';
 
 export default function Certified() {
   return (
+    <div className="certified-section">
     <div className="certified-container">
       <div className="certified-content">
         <h2>Get Certified</h2>
@@ -14,9 +15,10 @@ export default function Certified() {
           specimen book. It has survived not only five centuries.
         </p>
       </div>
-      <div className="certified-image">
-        <img src={image} alt="Food on plate" />
-      </div>
+    </div>
+        <div className="certified-image">
+          <img src={image} alt="Food on plate" />
+        </div>
     </div>
   );
 }

@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .certificate-page {
+    width: 100%;
+  }
+  
+  .banner-section {
+    background-image: url('../../assets/certificate.png');
+    padding: 261px 391px 414px 330px;
+    background-size: cover;
+  }
+
+  h3 {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    font-family: 'Nunito Sans';
+    color: #FF5733;
+  }
+
+  .certificate-text {
+    font-family: Nunito Sans;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  
+  .partners-section {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 200px;
+    font-family: 'Nunito-Sans';
+  }
+  
+  .places-section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .places-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .place-item {
+    padding: 20px;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .certificate-section {
+    background: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  
+  .certificate-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-family: 'Nunito-Sans';
+
+  }
+  .ai-image {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .places-container {
+    max-width: 500px;
+    margin-right: 400px;
+    padding: 20px;
+    font-family: 'Nunito-Sans';
+}
+
+.place-item {
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.place-item h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.place-item p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.place-item span {
+    font-weight: bold;
+}
+.ai-image-text h2 {
+    margin-right:100px;
+}
+.certificate-image img {
+    height: auto;
+    width: 100%;
+}
+

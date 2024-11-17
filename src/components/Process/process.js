@@ -3,10 +3,9 @@ import './index.css';
 import Header from '../Header/header';
 import Footer from '../Footer/footer';
 import processImage1 from '../../assets/processImage1.png';
-import processImage2 from '../../assets/processImage2.png';
 import processImage3 from '../../assets/processImage3.png';
 import processImage4 from '../../assets/processImage4.png';
-import profile from '../../assets/Avatar.png';
+// import profile from '../../assets/Avatar.png';
 
 const Process = () => {
     return (
@@ -30,15 +29,40 @@ const Process = () => {
                         </div>
                         <div className="process-history-item">
                             <p className="process-paragraph process-paragraph-extra">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. The elegance of simplicity lies in the profound truth this statement conveys. In a world where distractions abound, the foundational principles of clear and effective communication remain ever relevant. Quis pharetra adipiscing ultrices vulputate posuere tristique reflects a harmonious balance between innovation and tradition, emphasizing the importance of adaptability in navigating complexities. In sed odio nec aliquet eu proin mauris et speaks to resilience and perseverance, highlighting the strength found in overcoming challenges and embracing growth with an open heart. This philosophy invites us to explore the intersection of creativity and discipline, where ideas flourish, and meaningful progress is achieved."
                             </p>
-                            <img src={processImage2} alt="Person holding food" className="process-image-alt" />
                         </div>
+                        {/* <div className="process-history-item">
+                            <div className="three-step-process">
+                                <div className="step">
+                                    <div className="step-number">1</div>
+                                    <h4 className="step-title">Step 1: Idea</h4>
+                                    <p className="step-description">
+                                        Every great process begins with a solid idea. Identify the goal and plan the initial steps to set the foundation for success.
+                                    </p>
+                                </div>
+                                <div className="step">
+                                    <div className="step-number">2</div>
+                                    <h4 className="step-title">Step 2: Implementation</h4>
+                                    <p className="step-description">
+                                        Turn ideas into action by creating, testing, and refining the process to ensure efficiency and quality.
+                                    </p>
+                                </div>
+                                <div className="step">
+                                    <div className="step-number">3</div>
+                                    <h4 className="step-title">Step 3: Delivery</h4>
+                                    <p className="step-description">
+                                        Bring the process to completion by delivering the final results to consumers, ensuring satisfaction and success.
+                                    </p>
+                                </div>
+                            </div>
+                        </div> */}
+
                     </div>
                 </section>
 
                 <div className="process-item-centered">
-                    <h3 className="process-subtitle">Certified Outlets</h3>
+                    <h3 className="process-subtitle">Global Shudh Certified</h3>
                     <p className="process-paragraph">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique.
                     </p>
@@ -53,23 +77,7 @@ const Process = () => {
                     <img src={processImage4} alt="Life at Shudh" />
                 </section>
 
-                <section className="process-outlet-section">
-                    <h2 className="process-outlet-title">Perfect Food</h2>
-                    <div className="process-profile">
-                        <img src={profile} alt="profile" />
-                        <div className="process-profile-info">
-                            <span className="process-profile-name">Iswarya Raju</span>
-                            <div>
-                                <span className="process-profile-role">Safety Officer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="process-decorations">
-                        <div className="process-decoration-left"></div>
-                        <div className="process-decoration-top-right"></div>
-                        <div className="process-decoration-bottom-right"></div>
-                    </div>
-                </section>
+
             </div>
             <Footer />
         </div>
