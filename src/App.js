@@ -40,8 +40,8 @@ const HomePage = () => (
 const LoginPage = () => (
     <div>
         <Login/>
-        <ForgotPassword/>
-        <Admin/>
+        {/* <ForgotPassword/> */}
+        {/* <Admin/> */}
     </div>
 );
 
